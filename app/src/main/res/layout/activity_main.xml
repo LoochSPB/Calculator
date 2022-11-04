@@ -16,18 +16,19 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttons"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/monitor"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/margin_horizontal"
             android:layout_height="@dimen/button_size"
             android:layout_gravity="center_horizontal"
             android:background="@color/gray"
             android:gravity="center"
-            android:text="485739596"
             android:textColor="@color/black"
             android:textSize="@dimen/text_size"
             android:visibility="visible"
